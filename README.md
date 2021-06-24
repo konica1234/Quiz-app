@@ -14,8 +14,14 @@ This app is made using Django. It can be used to take quizes.
 
 *Group Members*
 
-- [Sakshi Gupta]()
+- [Sakshi Gupta](http://github.com/sakshi-codes)
 
 - [Saumya Singh]()
 
 - [Konica Ranjan](https://github.com/konica1234)
+
+## Some screenshots of the app.
+
+
+
+![s1]("/screenshot(214)")
