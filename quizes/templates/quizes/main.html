@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% load static %}
+{% block scripts %}
+    <script src="{% static 'quizes/main.js' %}" defer></script>
+{% endblock scripts %}
+
+{% block title %}
+home
+{% endblock title %}
+
+{% block content %}
+<hr>
+<!-- Modal -->
+<div class="modal fade" id="quizStarModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Start?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body" id="modal-body-confirm"></div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">no</button>
+        <button type="button" id="start-button" class="btn btn-success">yes</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% include "navbar.html" %}
+<br>
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <h1 class="display-1 text-info">Quiz Portal</h1>
+
+    <p><strong> Start Your Journey Here:</strong></p>
+    <h1>Quiz List:</h1>
+    <hr>
+    {% for obj in object_list %}
+  <button
+    class = "btn btn-link modal-button"
+    data-pk="{{obj.pk}}"
+    data-quiz="{{obj.name}}"
+    data-questions="{{obj.number_of_questions}}"
+    data-difficulty="{{obj.difficulty}}"
+    data-time="{{obj.time}}"
+    data-pass="{{obj.required_score_to_pass}}"
+    data-toggle="modal"
+    data-target="#quizStarModal">
+    {{obj.name}}
+  </button><br>
+    <br><br><br>
+  </div>
+</section>
+
+{% endfor %}
+{% endblock content %}
