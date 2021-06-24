@@ -24,4 +24,4 @@ This app is made using Django. It can be used to take quizes.
 
 
 
-![s1]("/screenshot(214)")
+![s1]("./Screenshot (214)")
