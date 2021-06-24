@@ -23,5 +23,8 @@ This app is made using Django. It can be used to take quizes.
 ## Some screenshots of the app.
 
 
-
-![s1]("./Screenshot (214)")
+![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(214).png)
+![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(215).png)
+![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(216).png)
+![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(217).png)
+![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(218).png)
