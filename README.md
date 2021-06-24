@@ -29,6 +29,7 @@ This app is made using Django. It can be used to take quizes.
 ![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(217).png)
 ![s1](https://raw.githubusercontent.com/konica1234/Quiz-app/master/Screenshot%20(218).png)
 
+
 ## Functions:
 
 ## Admin:
