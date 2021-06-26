@@ -34,7 +34,8 @@ This app is made using Django. It can be used to take quizes.
 
 ## Admin:
 <ul>
-  <li>Create Admin account using command
+  <li>Create Admin account using command<br>
+    
     ```
     py manage.py createsuperuser
     ```
