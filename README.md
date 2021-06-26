@@ -16,7 +16,7 @@ This app is made using Django. It can be used to take quizes.
 
 - [Sakshi Gupta](http://github.com/sakshi-codes)
 
-- [Saumya Singh]()
+- [Saumya Singh](https://github.com/Saumya-singh-02)
 
 - [Konica Ranjan](https://github.com/konica1234)
 
