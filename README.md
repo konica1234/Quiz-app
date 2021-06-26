@@ -35,10 +35,12 @@ This app is made using Django. It can be used to take quizes.
 ## Admin:
 <ul>
   <li>Create Admin account using command
-    
     ```
-    python -m pip install -r requirements.txt  
-    ```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+   
   </li>
   <li>Can Add, View, Delete Quiz.</li>
   <li>Can Add Questions To Respective quiz With options and correct answer.</li>
