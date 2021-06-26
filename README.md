@@ -37,8 +37,7 @@ This app is made using Django. It can be used to take quizes.
   <li>Create Admin account using command
     ```
     py manage.py createsuperuser
-
-   
+    ```
   </li>
   <li>Can Add, View, Delete Quiz.</li>
   <li>Can Add Questions To Respective quiz With options and correct answer.</li>
