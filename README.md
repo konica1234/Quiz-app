@@ -36,10 +36,8 @@ This app is made using Django. It can be used to take quizes.
 <ul>
   <li>Create Admin account using command
     ```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+    py manage.py createsuperuser
+
    
   </li>
   <li>Can Add, View, Delete Quiz.</li>
