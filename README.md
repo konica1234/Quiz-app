@@ -37,9 +37,7 @@ This app is made using Django. It can be used to take quizes.
   <li>Create Admin account using command
     
     ```
-    
-    python -m pip install -r requirements.txt 
-    
+    python -m pip install -r requirements.txt  
     ```
   </li>
   <li>Can Add, View, Delete Quiz.</li>
