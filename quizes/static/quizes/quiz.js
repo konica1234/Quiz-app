@@ -9,7 +9,7 @@ const activateTimer = (time) => {
     if (time.toString().length< 2)  {
             timerBox.innerHTML = `<b>0${time}: 00</b>`
     } else {
-             timerBox.innerHTML = `<b>0${time}: 00</b>`
+             timerBox.innerHTML = `<b>${time}: 00</b>`
     }
 
     let minutes = time-1
